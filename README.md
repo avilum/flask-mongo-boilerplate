@@ -1,7 +1,13 @@
-# A python full stack template - Flask + MongoDB
-Highly configurable.<br>
-Search for 'TODO' in the project to fill the configuration.<br>
+# A python web app template - Flask + MongoDB
+This is a highly configurable python web application boilerplate.<br>
+It uses Flask, MongoDB, custom logging and environmental configurations for easy, robust development.<br>
 
+
+### Steps:
+1. Search for 'TODO' in the project to fill the configuration.<br>
+2. python ui/server.py
+
+### Architecture:
 ```bash
 python-boilerplate/ # root directory
     core/ # configurations, models and abstractions.
