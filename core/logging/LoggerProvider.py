@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 from core.configurations.logging_configuration import LOGS_DIRECTORY_FULL_NAME, DEBUG, LOGS_FORMAT, Formatter, \
-    BACKUP_LOGS_FILES_COUNT, LOG_FILE_MAX_BYTES, ROTATING_FILE_HANDLER_LEVEL, STREAM_HANDLER_LEVEL
+    BACKUP_LOGS_FILES_COUNT, LOG_FILE_MAX_BYTES, ROTATING_FILE_HANDLER_LOGGING_LEVEL, STREAM_HANDLER_LEVEL
 
 
 class LoggerProvider(object):
@@ -57,7 +57,7 @@ class LoggerProvider(object):
         stream_handler = logging.StreamHandler()
 
         # Setting levels
-        rotating_file_handler.setLevel(ROTATING_FILE_HANDLER_LEVEL)
+        rotating_file_handler.setLevel(ROTATING_FILE_HANDLER_LOGGING_LEVEL)
         stream_handler.setLevel(STREAM_HANDLER_LEVEL)
 
         # Setting formatters

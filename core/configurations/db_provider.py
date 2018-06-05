@@ -1,0 +1,5 @@
+from core.configurations.db import DEFAULT_DB_CONFIGURATION
+from data.mongo_db_provider import MongoDbProvider
+
+DEFAULT_DB_PROVIDER_CLASS = MongoDbProvider
+DEFAULT_DB_CONFIGURATION_CLASS = DEFAULT_DB_CONFIGURATION
