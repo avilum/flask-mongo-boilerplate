@@ -16,4 +16,8 @@ python-boilerplate/ # root directory
     tests/ # Any tests you want to implement
     bll/ # Any custom logic you want to use between the UI and the DATA layers.
 ```
- 
+
+### Configurations
+The directory core/configurations contains a lot of configurations.<br>
+The most important one is env.py,<br>
+DEVELOP_MODE will control the selected db and the logging levels.
